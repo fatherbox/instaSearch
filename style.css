@@ -1,0 +1,69 @@
+html, body{
+
+    background-color: black;
+    height: 100%;
+}
+.mainLogo
+{
+    margin-top: 220px;
+    display: block;
+}
+.mainScreen
+{
+    background-color: white;
+    min-height: 100%;
+}
+form
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+    z-index: 10;
+}
+.picBox
+{
+    display: inline-block;
+    padding: 7px;
+    margin: 3px;
+    border: 2px solid beige;
+    border-radius: 10px;
+}
+.picBox:hover
+{
+    border: 2px solid lightgray;
+}
+.picDiv
+{
+
+    opacity: 1;
+
+}
+.picDiv.ng-hide
+{
+opacity: 0;
+
+}
+
+.picDiv.ng-hide-remove
+{
+    transition: all linear 1.25s;
+
+
+}
+
+#resultTxt
+{
+    display: block;
+    margin-top: 355px;
+    margin-bottom: 30px;
+    text-align:center;
+
+    font-size: 1.2em;
+    z-index: -2;
+}
+#picRow
+{
+    margin: 0 auto;
+    float:none;
+}
